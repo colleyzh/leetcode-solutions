@@ -1,5 +1,5 @@
 class Solution:
-    def isValidBST(self, root: Optional[TreeNode]) -> bool:
+    def isValidBST(self, root) -> bool:
 
         return self.help(root, float("-inf"), float("inf"))
 
